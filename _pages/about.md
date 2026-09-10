@@ -30,6 +30,6 @@ latest_posts:
 
 I am a PhD student at IRISA / Inria in Rennes, in the COMPACT team, supervised by [Nicolas Keriven](https://nkeriven.github.io/) and [Titouan Vayer](https://tvayer.github.io/). My thesis, "Invariance and Transferability in Generative Models," explores how generative models behave under group symmetries and how well they generalize to data of different sizes, such as graphs and point clouds.
 
-Prior to my PhD, I completed a Bachelor of Mathematics at Université Claude Bernard Lyon 1 and an exchange year in mathematics at École Centrale de Lyon, alongside the Grande École program at emlyon business school. I also completed three research internships spanning public and private research, most recently a six-month internship in the COMPACT team at IRISA / Inria, where I worked on invariant stochastic differential equations under group actions, equivariant flow matching on sets and graphs, and size generalization for exchangeable generative models.
+Prior to my PhD, I completed a Bachelor of Mathematics at Université Claude Bernard Lyon 1 and an exchange year in mathematics at École Centrale de Lyon, alongside the Grande École program at emlyon business school. I also completed three research internships spanning public and private research, most recently a six-month internship in the COMPACT team at IRISA / Inria, where I worked on a general method for invariant generative models and transferability of generative models on sets.
 
 This site collects my research and updates. Feel free to reach out by email.
