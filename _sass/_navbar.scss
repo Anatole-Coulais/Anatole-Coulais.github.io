@@ -1,0 +1,10 @@
+// Local override (see docs/CUSTOMIZE.md > "Customizing fonts, spacing, and more").
+// Hides the "ctrl k" keyboard-shortcut text next to the navbar search icon.
+// The shortcut itself (Ctrl/Cmd+K) still works — only the visible hint text is removed.
+#search-toggle .nav-link {
+  font-size: 0;
+
+  i {
+    font-size: 1rem;
+  }
+}

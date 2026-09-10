@@ -1,7 +1,7 @@
 cv:
   name: Anatole Coulais
   headline: Incoming PhD Student in Machine Learning
-  email: coulais.anatole@gmail.com
+  email: anatole.coulais@irisa.fr
   location: Rennes, France
 
   social_networks:
@@ -25,7 +25,7 @@ cv:
       - institution: Université Claude Bernard Lyon 1
         location: Lyon, France
         area: Mathematics
-        degree: Licence (completed independently, in parallel with emlyon)
+        degree: Bachelor of Mathematics
         start_date: 2022
         end_date: 2024
         highlights:
@@ -43,7 +43,7 @@ cv:
 
       - institution: Lycée Michel Montaigne
         location: Bordeaux, France
-        area: Economics and Business (ECG)
+        area: Economics and Mathematics
         degree: Classe Préparatoire
         start_date: 2020
         end_date: 2022
@@ -54,15 +54,16 @@ cv:
       - company: CNRS / IRISA
         position: PhD Candidate (incoming)
         location: Rennes, France
-        date: Starting October 2026
-        summary: PhD supervised by Nicolas Keriven (CNRS) and Titouan Vayer (Inria), on invariance and transferability in generative models for structured data such as graphs and point clouds.
+        start_date: 2026
+        end_date: 2028
+        summary: PhD supervised by [Nicolas Keriven](https://nkeriven.github.io/) (CNRS) and [Titouan Vayer](https://tvayer.github.io/) (Inria), on invariance and transferability in generative models for structured data such as graphs and point clouds.
 
       - company: IRISA / Inria, COMPACT team
         position: Research Intern
         location: Rennes, France
         start_date: 2026-04-01
         end_date: 2026-09-30
-        summary: Six-month research internship supervised by Nicolas Keriven and Titouan Vayer, on diffusion on graphs and the generalization of generative models for graph machine learning.
+        summary: Six-month research internship supervised by [Nicolas Keriven](https://nkeriven.github.io/) and [Titouan Vayer](https://tvayer.github.io/), on diffusion on graphs and the generalization of generative models for graph machine learning.
         highlights:
           - Invariant stochastic differential equations under group actions.
           - Equivariant flow matching on sets and graphs, using exchangeability and de Finetti-type structure.
@@ -70,7 +71,7 @@ cv:
 
       - company: Schneider Electric R&D
         position: Data Scientist Intern
-        location: Paris, France / Madrid, Spain
+        location: Paris, France<br>Madrid, Spain
         start_date: 2024-10-01
         end_date: 2025-08-31
         highlights:
@@ -87,27 +88,3 @@ cv:
         highlights:
           - Studied "Unbiased Markov Chain Monte Carlo Methods With Couplings" and implemented the methods in Python.
           - Presented the paper to about 20 PhD students and researchers in the department.
-
-    Skills:
-      - label: Programming
-        details: "Python (NumPy, pandas, scikit-learn, PyTorch), LaTeX, Git"
-
-      - label: Machine Learning
-        details: "Generative models, graph neural networks, equivariant and invariant architectures, diffusion and flow matching models"
-
-      - label: Mathematics
-        details: "Stochastic calculus, optimal transport, measure theory, group representation theory"
-
-    Languages:
-      - label: French
-        details: Native speaker
-
-      - label: English
-        details: C1
-
-      - label: Spanish
-        details: B1
-
-    Interests:
-      - label: Research
-        details: "Generative models, graph machine learning, stochastic processes"

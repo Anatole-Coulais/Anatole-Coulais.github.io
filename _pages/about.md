@@ -26,10 +26,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a final-year student at emlyon business school, with an exchange year in mathematics at École Centrale de Lyon, completing a six-month research internship in the COMPACT team at IRISA / Inria in Rennes, supervised by Nicolas Keriven (CNRS) and Titouan Vayer (Inria). In October 2026 I will begin a PhD at IRISA under Nicolas Keriven's supervision, on invariance and transferability in generative models.
+I am a final-year student at emlyon business school, with an exchange year in mathematics at École Centrale de Lyon, completing a six-month research internship in the COMPACT team at IRISA / Inria in Rennes, supervised by [Nicolas Keriven](https://nkeriven.github.io/) (CNRS) and [Titouan Vayer](https://tvayer.github.io/) (Inria). In October 2026 I will begin a PhD at IRISA supervised by both [Nicolas Keriven](https://nkeriven.github.io/) and [Titouan Vayer](https://tvayer.github.io/), on invariance and transferability in generative models.
 
 My research focuses on generative models for structured data such as graphs and point clouds, in particular how they behave under group symmetries and how well they generalize across data of different sizes. During my internship I worked on invariant stochastic differential equations under group actions, equivariant flow matching on sets and graphs, and size generalization for exchangeable generative models.
-
-Previously, I worked as a data scientist intern at Schneider Electric R&D, co-authoring an article on machine learning models of greenhouse gas emissions, and completed an internship at Université de Montréal on unbiased MCMC methods with couplings, supervised by Florian Maire.
 
 This site collects my research and updates as my PhD gets underway. Feel free to reach out by email.
