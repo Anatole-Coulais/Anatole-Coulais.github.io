@@ -1,10 +1,8 @@
 cv:
   name: Anatole Coulais
-  label: Incoming PhD Student in Machine Learning
+  headline: Incoming PhD Student in Machine Learning
   email: coulais.anatole@gmail.com
   location: Rennes, France
-  image: ""
-  summary: Working on generative models for graphs and structured data, with a research background spanning stochastic calculus, optimal transport, and geometric deep learning.
 
   social_networks:
     - network: GitHub
@@ -17,7 +15,7 @@ cv:
       - institution: École Centrale de Lyon
         location: Lyon, France
         area: Mathematics
-        studyType: Exchange Program
+        degree: Exchange Program
         start_date: 2025
         end_date: 2026
         highlights:
@@ -27,7 +25,7 @@ cv:
       - institution: Université Claude Bernard Lyon 1
         location: Lyon, France
         area: Mathematics
-        studyType: Licence (completed independently, in parallel with emlyon)
+        degree: Licence (completed independently, in parallel with emlyon)
         start_date: 2022
         end_date: 2024
         highlights:
@@ -37,7 +35,7 @@ cv:
       - institution: emlyon business school
         location: Lyon, France
         area: Data Science
-        studyType: Grande École Program
+        degree: Grande École Program
         start_date: 2022
         end_date: 2026
         highlights:
@@ -46,7 +44,7 @@ cv:
       - institution: Lycée Michel Montaigne
         location: Bordeaux, France
         area: Economics and Business (ECG)
-        studyType: Classe Préparatoire
+        degree: Classe Préparatoire
         start_date: 2020
         end_date: 2022
         highlights:
@@ -91,26 +89,25 @@ cv:
           - Presented the paper to about 20 PhD students and researchers in the department.
 
     Skills:
-      - name: Programming
-        keywords: "Python (NumPy, pandas, scikit-learn, PyTorch), LaTeX, Git"
+      - label: Programming
+        details: "Python (NumPy, pandas, scikit-learn, PyTorch), LaTeX, Git"
 
-      - name: Machine Learning
-        keywords: "Generative models, graph neural networks, equivariant and invariant architectures, diffusion and flow matching models"
+      - label: Machine Learning
+        details: "Generative models, graph neural networks, equivariant and invariant architectures, diffusion and flow matching models"
 
-      - name: Mathematics
-        keywords: "Stochastic calculus, optimal transport, measure theory, group representation theory"
+      - label: Mathematics
+        details: "Stochastic calculus, optimal transport, measure theory, group representation theory"
 
     Languages:
-      - name: French
-        summary: Native speaker
+      - label: French
+        details: Native speaker
 
-      - name: English
-        summary: C1
+      - label: English
+        details: C1
 
-      - name: Spanish
-        summary: B1
+      - label: Spanish
+        details: B1
 
     Interests:
-      - name: Research
-        icon: fa-solid fa-tag
-        keywords: "Generative models, graph machine learning, stochastic processes"
+      - label: Research
+        details: "Generative models, graph machine learning, stochastic processes"
