@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Student, <a href="https://team.inria.fr/compact/">Team COMPACT</a>, IRISA / Inria, Rennes</p>
+    <p>PhD Student, <a href="https://team.inria.fr/compact/">COMPACT Team</a>, Inria, Rennes</p>
     <p>IRISA / Inria</p>
     <p>263 Av. Général Leclerc</p>
     <p>35042 Rennes, France</p>
