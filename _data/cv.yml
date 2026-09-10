@@ -54,7 +54,7 @@ cv:
       - company: CNRS / IRISA
         position: PhD Candidate (incoming)
         location: Rennes, France
-        start_date: 2026-10-01
+        date: Starting October 2026
         summary: PhD supervised by Nicolas Keriven (CNRS) and Titouan Vayer (Inria), on invariance and transferability in generative models for structured data such as graphs and point clouds.
 
       - company: IRISA / Inria, COMPACT team
