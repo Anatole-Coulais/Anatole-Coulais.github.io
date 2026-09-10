@@ -2,14 +2,13 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Student, IRISA / Inria
+subtitle: PhD Student, <a href="https://team.inria.fr/compact/">COMPACT Team</a>, inria, IRISA Rennes. 
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>PhD Student, <a href="https://team.inria.fr/compact/">COMPACT Team</a>, Inria, Rennes</p>
     <p>IRISA / Inria</p>
     <p>263 Av. Général Leclerc</p>
     <p>35042 Rennes, France</p>
