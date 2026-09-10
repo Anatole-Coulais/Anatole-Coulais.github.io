@@ -1,0 +1,6 @@
+# Maps a bibtex venue/journal key to a display color (and optional url), used
+# by jekyll-scholar to badge publications by venue.
+# Example:
+# "NeurIPS":
+#   url: https://neurips.cc/
+#   color: "#68448B"

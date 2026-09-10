@@ -1,0 +1,116 @@
+cv:
+  name: Anatole Coulais
+  label: Incoming PhD Student in Machine Learning
+  email: coulais.anatole@gmail.com
+  location: Rennes, France
+  image: ""
+  summary: Working on generative models for graphs and structured data, with a research background spanning stochastic calculus, optimal transport, and geometric deep learning.
+
+  social_networks:
+    - network: GitHub
+      username: Anatole-Coulais
+    - network: LinkedIn
+      username: anatole-coulais
+
+  sections:
+    Education:
+      - institution: École Centrale de Lyon
+        location: Lyon, France
+        area: Mathematics
+        studyType: Exchange Program
+        start_date: 2025
+        end_date: 2026
+        highlights:
+          - Stochastic calculus and stochastic differential equations, analysis and modeling of PDEs.
+          - Convex optimization, sparsity, statistics, deep learning, machine learning.
+
+      - institution: Université Claude Bernard Lyon 1
+        location: Lyon, France
+        area: Mathematics
+        studyType: Licence (completed independently, in parallel with emlyon)
+        start_date: 2022
+        end_date: 2024
+        highlights:
+          - Probability, measure theory, topology, introductory functional analysis, differential calculus.
+          - Linear algebra, differential equations, group theory, rings and fields.
+
+      - institution: emlyon business school
+        location: Lyon, France
+        area: Data Science
+        studyType: Grande École Program
+        start_date: 2022
+        end_date: 2026
+        highlights:
+          - Statistics, artificial intelligence, data science, economics.
+
+      - institution: Lycée Michel Montaigne
+        location: Bordeaux, France
+        area: Economics and Business (ECG)
+        studyType: Classe Préparatoire
+        start_date: 2020
+        end_date: 2022
+        highlights:
+          - Mathematics, economics, philosophy, literature.
+
+    Experience:
+      - company: CNRS / IRISA
+        position: PhD Candidate (incoming)
+        location: Rennes, France
+        start_date: 2026-10-01
+        summary: PhD supervised by Nicolas Keriven (CNRS) and Titouan Vayer (Inria), on invariance and transferability in generative models for structured data such as graphs and point clouds.
+
+      - company: IRISA / Inria, COMPACT team
+        position: Research Intern
+        location: Rennes, France
+        start_date: 2026-04-01
+        end_date: 2026-09-30
+        summary: Six-month research internship supervised by Nicolas Keriven and Titouan Vayer, on diffusion on graphs and the generalization of generative models for graph machine learning.
+        highlights:
+          - Invariant stochastic differential equations under group actions.
+          - Equivariant flow matching on sets and graphs, using exchangeability and de Finetti-type structure.
+          - Size generalization for exchangeable generative models via Wasserstein-over-Wasserstein distances.
+
+      - company: Schneider Electric R&D
+        position: Data Scientist Intern
+        location: Paris, France / Madrid, Spain
+        start_date: 2024-10-01
+        end_date: 2025-08-31
+        highlights:
+          - Co-authored an article on machine learning models of greenhouse gas emissions.
+          - Modeled organic carbon sequestration in agricultural soils.
+          - Co-supervised a student capstone project in data science with Institut Polytechnique de Paris.
+
+      - company: Université de Montréal, Department of Mathematics and Statistics
+        position: Research Intern
+        location: Montréal, Canada
+        start_date: 2023-08-01
+        end_date: 2023-12-31
+        summary: Supervised by Florian Maire.
+        highlights:
+          - Studied "Unbiased Markov Chain Monte Carlo Methods With Couplings" and implemented the methods in Python.
+          - Presented the paper to about 20 PhD students and researchers in the department.
+
+    Skills:
+      - name: Programming
+        keywords: "Python (NumPy, pandas, scikit-learn, PyTorch), LaTeX, Git"
+
+      - name: Machine Learning
+        keywords: "Generative models, graph neural networks, equivariant and invariant architectures, diffusion and flow matching models"
+
+      - name: Mathematics
+        keywords: "Stochastic calculus, optimal transport, measure theory, group representation theory"
+
+    Languages:
+      - name: French
+        summary: Native speaker
+
+      - name: English
+        summary: C1
+
+      - name: Spanish
+        summary: B1
+
+    Interests:
+      - name: Research
+        icon: fa-solid fa-tag
+        keywords: "Generative models, graph machine learning, stochastic processes"

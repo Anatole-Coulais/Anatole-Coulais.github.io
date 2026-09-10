@@ -1,0 +1,9 @@
+# this file contains the social media links and usernames of the author
+# the socials will be displayed in the order they are defined here
+# for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
+email: coulais.anatole@gmail.com # your email address
+github_username: Anatole-Coulais
+linkedin_username: anatole-coulais
+# cv_pdf: /assets/pdf/cv.pdf # add once you have a CV PDF to link here
+# scholar_userid: # add once your Google Scholar profile is set up
+# rss_icon: true # uncomment once you're posting to the blog

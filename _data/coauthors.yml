@@ -1,0 +1,6 @@
+# Maps a bibtex author surname key to name variants and an optional URL, so
+# jekyll-scholar can render co-author names consistently and link them.
+# Example:
+# "keriven":
+#   - firstname: ["Nicolas", "N."]
+#     url: https://sites.google.com/view/nkeriven
