@@ -23,5 +23,10 @@ module.exports = {
     // and page chrome (scroll-progress bar, ToC) bleeds through a zoomed image.
     "medium-zoom-overlay",
     "medium-zoom-image--opened",
+    // The light/dark toggle sets data-theme on <html> via JS after load, so
+    // "dark"/"light" never appear as literal text in the static HTML PurgeCSS
+    // scans. Without this, every [data-theme="..."] rule (the theme's own
+    // dark-mode styling, and any local override) gets stripped as "unused".
+    /\[data-theme/,
   ],
 };
