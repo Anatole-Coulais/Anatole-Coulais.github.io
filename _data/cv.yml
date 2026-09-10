@@ -51,31 +51,27 @@ cv:
           - Mathematics, economics, philosophy, literature.
 
     Experience:
-      - company: CNRS / IRISA
+      - company: Inria, CNRS, IRISA
         position: PhD Candidate (incoming)
         location: Rennes, France
         start_date: 2026
         end_date: 2028
-        summary: PhD supervised by [Nicolas Keriven](https://nkeriven.github.io/) (CNRS) and [Titouan Vayer](https://tvayer.github.io/) (Inria), on invariance and transferability in generative models for structured data such as graphs and point clouds.
+        summary: PhD supervised by [Nicolas Keriven](https://nkeriven.github.io/) (CNRS) and [Titouan Vayer](https://tvayer.github.io/) (Inria), entitled "Invariance and Transferability in Generative Models".
 
-      - company: IRISA / Inria, COMPACT team
+      - company: Inria, CNRS, IRISA
         position: Research Intern
         location: Rennes, France
         start_date: 2026-04-01
         end_date: 2026-09-30
-        summary: Six-month research internship supervised by [Nicolas Keriven](https://nkeriven.github.io/) and [Titouan Vayer](https://tvayer.github.io/), on diffusion on graphs and the generalization of generative models for graph machine learning.
-        highlights:
-          - Invariant stochastic differential equations under group actions.
-          - Equivariant flow matching on sets and graphs, using exchangeability and de Finetti-type structure.
-          - Size generalization for exchangeable generative models via Wasserstein-over-Wasserstein distances.
+        summary: Six-month research internship supervised by [Nicolas Keriven](https://nkeriven.github.io/) and [Titouan Vayer](https://tvayer.github.io/), on invariance of generative models and transferability of set-based generative models.
 
-      - company: Schneider Electric R&D
+      - company: Schneider Electric Sustainability Business, R&D Department
         position: Data Scientist Intern
         location: Paris, France<br>Madrid, Spain
         start_date: 2024-10-01
         end_date: 2025-08-31
         highlights:
-          - Co-authored an article on machine learning models of greenhouse gas emissions.
+          - Co-authored an internal research article on machine learning models of greenhouse gas emissions.
           - Modeled organic carbon sequestration in agricultural soils.
           - Co-supervised a student capstone project in data science with Institut Polytechnique de Paris.
 
