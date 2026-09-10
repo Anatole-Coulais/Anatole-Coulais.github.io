@@ -61,6 +61,29 @@ let applyTheme = () => {
 
   document.documentElement.setAttribute("data-theme", theme);
 
+  // Show a single toggle icon (the one for the theme you'd switch TO), with
+  // a color that matches the current theme's text color. Done directly in
+  // JS -- rather than via [data-theme-setting="..."] CSS selectors -- since
+  // this build's CSS pipeline strips out attribute-selector rules whose
+  // values never appear literally in the static HTML.
+  let iconSystem = document.getElementById("light-toggle-system");
+  let iconDark = document.getElementById("light-toggle-dark");
+  let iconLight = document.getElementById("light-toggle-light");
+  if (iconSystem) iconSystem.style.display = "none";
+  if (theme == "dark") {
+    if (iconDark) iconDark.style.display = "none";
+    if (iconLight) {
+      iconLight.style.display = "inline-block";
+      iconLight.style.color = "#e8e8e8";
+    }
+  } else {
+    if (iconLight) iconLight.style.display = "none";
+    if (iconDark) {
+      iconDark.style.display = "inline-block";
+      iconDark.style.color = "#000000";
+    }
+  }
+
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
   for (let i = 0; i < tables.length; i++) {
