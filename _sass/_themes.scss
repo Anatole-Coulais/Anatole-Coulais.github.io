@@ -1,0 +1,7 @@
+// Local override (see docs/CUSTOMIZE.md > "Changing theme color").
+// Light mode only: hyperlinks (and the matching hover accent) use blue
+// instead of the theme's default purple. Dark mode is untouched.
+:root[data-theme="light"] {
+  --global-theme-color: #1a73e8;
+  --global-hover-color: #1a73e8;
+}

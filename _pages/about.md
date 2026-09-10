@@ -2,15 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: PhD Candidate (from Oct. 2026), CNRS / IRISA
+subtitle: PhD Student, CNRS / IRISA
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>IRISA / Inria, COMPACT team</p>
-    <p>Rennes, France</p>
+    <p>PhD Student, <a href="https://team.inria.fr/compact/">Team COMPACT</a>, CNRS, IRISA Rennes</p>
+    <p>IRISA / Inria</p>
+    <p>263 Av. Général Leclerc</p>
+    <p>35042 Rennes, France</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -26,8 +28,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a final-year student at emlyon business school, with an exchange year in mathematics at École Centrale de Lyon, completing a six-month research internship in the COMPACT team at IRISA / Inria in Rennes, supervised by [Nicolas Keriven](https://nkeriven.github.io/) (CNRS) and [Titouan Vayer](https://tvayer.github.io/) (Inria). In October 2026 I will begin a PhD at IRISA supervised by both [Nicolas Keriven](https://nkeriven.github.io/) and [Titouan Vayer](https://tvayer.github.io/), on invariance and transferability in generative models.
+I am a PhD student at CNRS / IRISA in Rennes, in the COMPACT team, supervised by [Nicolas Keriven](https://nkeriven.github.io/) and [Titouan Vayer](https://tvayer.github.io/). My research explores invariance and transferability in generative models for structured data such as graphs and point clouds, in particular how these models behave under group symmetries and how well they generalize to data of different sizes.
 
-My research focuses on generative models for structured data such as graphs and point clouds, in particular how they behave under group symmetries and how well they generalize across data of different sizes. During my internship I worked on invariant stochastic differential equations under group actions, equivariant flow matching on sets and graphs, and size generalization for exchangeable generative models.
+Prior to my PhD, I completed the Grande École program at emlyon business school, with an exchange year in mathematics at École Centrale de Lyon, and a six-month research internship in the COMPACT team at IRISA / Inria, where I worked on invariant stochastic differential equations under group actions, equivariant flow matching on sets and graphs, and size generalization for exchangeable generative models.
 
-This site collects my research and updates as my PhD gets underway. Feel free to reach out by email.
+This site collects my research and updates. Feel free to reach out by email.
