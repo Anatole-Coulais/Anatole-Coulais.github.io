@@ -1,16 +1,18 @@
 // Local override (see docs/CUSTOMIZE.md > "Changing theme color").
-// Same blue hyperlink/accent color in both light and dark mode.
+// Blue hyperlinks/accent color in both light and dark mode.
 :root {
   --global-theme-color: #2698ba;
   --global-hover-color: #2698ba;
 }
 
-// The theme's own dark-mode background/text styling isn't taking effect on
-// this build (dark mode currently renders black-text-on-white, same as
-// light mode). Force a proper dark theme: black background, light readable
-// text. Links already come out blue via --global-theme-color above.
+// The theme's own dark/light background+text styling wasn't taking effect on
+// this build (PurgeCSS was stripping every [data-theme="..."] rule -- see the
+// safelist entry added in purgecss.config.js). These set explicit colors:
+// dark mode a dark grey with light grey text, light mode plain white with
+// black text (matching https://mathurinm.github.io/about/, which uses the
+// same theme).
 html[data-theme="dark"] {
-  background-color: #000 !important;
+  background-color: #1c1c1d !important;
   color: #e8e8e8 !important;
 
   body,
@@ -21,7 +23,24 @@ html[data-theme="dark"] {
   .container,
   .post,
   .card {
-    background-color: #000 !important;
+    background-color: #1c1c1d !important;
     color: #e8e8e8 !important;
+  }
+}
+
+html[data-theme="light"] {
+  background-color: #ffffff !important;
+  color: #000000 !important;
+
+  body,
+  header,
+  nav,
+  footer,
+  main,
+  .container,
+  .post,
+  .card {
+    background-color: #ffffff !important;
+    color: #000000 !important;
   }
 }
