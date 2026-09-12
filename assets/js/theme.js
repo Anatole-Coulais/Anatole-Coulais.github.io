@@ -24,6 +24,39 @@ let setThemeSetting = (themeSetting) => {
   applyTheme();
 };
 
+// Render the theme toggle as a bare icon, the way https://mathurinm.github.io
+// does it: no button background, border or padding, a single glyph (the theme
+// you would switch TO), colored like the current theme's text.
+//
+// Done with inline styles rather than CSS, since this build's CSS pipeline
+// strips the gem's own #light-toggle rules out of main.css. The toggle does
+// not exist yet when applyTheme() runs from <head>, so this is called again on
+// DOMContentLoaded.
+let styleThemeToggle = (theme) => {
+  let toggle = document.getElementById("light-toggle");
+  if (toggle) {
+    toggle.style.background = "transparent";
+    toggle.style.border = "none";
+    toggle.style.padding = "0";
+    toggle.style.lineHeight = "1";
+    toggle.style.cursor = "pointer";
+  }
+
+  let iconColor = theme == "dark" ? "#e8e8e8" : "#000000";
+  let iconSystem = document.getElementById("light-toggle-system");
+  let iconDark = document.getElementById("light-toggle-dark");
+  let iconLight = document.getElementById("light-toggle-light");
+  if (iconSystem) iconSystem.style.display = "none";
+  if (iconDark) {
+    iconDark.style.display = theme == "dark" ? "none" : "inline-block";
+    iconDark.style.color = iconColor;
+  }
+  if (iconLight) {
+    iconLight.style.display = theme == "dark" ? "inline-block" : "none";
+    iconLight.style.color = iconColor;
+  }
+};
+
 // Apply the computed dark or light theme to the website.
 let applyTheme = () => {
   let theme = determineComputedTheme();
@@ -61,28 +94,7 @@ let applyTheme = () => {
 
   document.documentElement.setAttribute("data-theme", theme);
 
-  // Show a single toggle icon (the one for the theme you'd switch TO), with
-  // a color that matches the current theme's text color. Done directly in
-  // JS -- rather than via [data-theme-setting="..."] CSS selectors -- since
-  // this build's CSS pipeline strips out attribute-selector rules whose
-  // values never appear literally in the static HTML.
-  let iconSystem = document.getElementById("light-toggle-system");
-  let iconDark = document.getElementById("light-toggle-dark");
-  let iconLight = document.getElementById("light-toggle-light");
-  if (iconSystem) iconSystem.style.display = "none";
-  if (theme == "dark") {
-    if (iconDark) iconDark.style.display = "none";
-    if (iconLight) {
-      iconLight.style.display = "inline-block";
-      iconLight.style.color = "#e8e8e8";
-    }
-  } else {
-    if (iconLight) iconLight.style.display = "none";
-    if (iconDark) {
-      iconDark.style.display = "inline-block";
-      iconDark.style.color = "#000000";
-    }
-  }
+  styleThemeToggle(theme);
 
   // Add class to tables.
   let tables = document.getElementsByTagName("table");
@@ -310,6 +322,9 @@ let initTheme = () => {
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
     const mode_toggle = document.getElementById("light-toggle");
+
+    // The toggle is parsed after this script, so style it once it exists.
+    styleThemeToggle(determineComputedTheme());
 
     mode_toggle.addEventListener("click", function () {
       toggleThemeSetting();

@@ -28,6 +28,24 @@ html[data-theme="dark"] {
   }
 }
 
+// Theme toggle rendered as a bare icon, no button chrome, matching
+// https://mathurinm.github.io/about/. The browser's default button styling
+// otherwise shows a light grey box with an outset border, which is invisible on
+// the white light-mode background but very visible on the dark one. theme.js
+// sets the same properties inline (see styleThemeToggle) as a safety net.
+#light-toggle {
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  line-height: 1;
+  cursor: pointer;
+  color: #000000;
+}
+
+html[data-theme="dark"] #light-toggle {
+  color: #e8e8e8;
+}
+
 html[data-theme="light"] {
   background-color: #ffffff !important;
   color: #000000 !important;

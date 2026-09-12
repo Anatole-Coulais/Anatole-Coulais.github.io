@@ -28,5 +28,8 @@ module.exports = {
     // scans. Without this, every [data-theme="..."] rule (the theme's own
     // dark-mode styling, and any local override) gets stripped as "unused".
     /\[data-theme/,
+    // Keep the theme-toggle rules (#light-toggle and its icon ids), which the
+    // purge pass drops from the theme's own stylesheet.
+    /^light-toggle/,
   ],
 };
