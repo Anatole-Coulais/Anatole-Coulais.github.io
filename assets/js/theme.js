@@ -37,9 +37,19 @@ let styleThemeToggle = (theme) => {
   if (toggle) {
     toggle.style.background = "transparent";
     toggle.style.border = "none";
-    toggle.style.padding = "0";
-    toggle.style.lineHeight = "1";
     toggle.style.cursor = "pointer";
+    // Same box as a .nav-link (8px padding, 24px line height), centered in the
+    // navbar row, so the glyph sits on the same line as "about publications
+    // talks CV" instead of riding above it.
+    toggle.style.display = "inline-flex";
+    toggle.style.alignItems = "center";
+    toggle.style.padding = "8px";
+    toggle.style.lineHeight = "24px";
+    let container = toggle.closest(".toggle-container");
+    if (container) {
+      container.style.display = "flex";
+      container.style.alignItems = "center";
+    }
   }
 
   let iconColor = theme == "dark" ? "#e8e8e8" : "#000000";

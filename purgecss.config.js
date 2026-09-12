@@ -31,5 +31,6 @@ module.exports = {
     // Keep the theme-toggle rules (#light-toggle and its icon ids), which the
     // purge pass drops from the theme's own stylesheet.
     /^light-toggle/,
+    "toggle-container",
   ],
 };

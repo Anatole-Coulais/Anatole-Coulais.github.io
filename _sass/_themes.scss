@@ -33,11 +33,20 @@ html[data-theme="dark"] {
 // otherwise shows a light grey box with an outset border, which is invisible on
 // the white light-mode background but very visible on the dark one. theme.js
 // sets the same properties inline (see styleThemeToggle) as a safety net.
+// The toggle sits in its own navbar <li>, centered so that the glyph lands on
+// the same line as the nav links, with a .nav-link-sized box around it.
+.toggle-container {
+  display: flex !important;
+  align-items: center;
+}
+
 #light-toggle {
-  padding: 0 !important;
+  display: inline-flex !important;
+  align-items: center;
+  padding: 8px !important;
   border: none !important;
   background: transparent !important;
-  line-height: 1;
+  line-height: 24px;
   cursor: pointer;
   color: #000000;
 }
